@@ -77,10 +77,11 @@
 // // ======================================================
 
 import React from "react";
-import WelcomSreen from "./app/screens/WelcomSreen";
+// import WelcomSreen from "./app/screens/WelcomSreen";
+import ViewImageScreen from "./app/screens/ViewImageScreen";
 
 function App(props) {
-  return <WelcomSreen />;
+  return <ViewImageScreen />;
 }
 
 export default App;
