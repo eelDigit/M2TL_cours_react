@@ -77,11 +77,15 @@
 // // ======================================================
 
 import React from "react";
-// import WelcomSreen from "./app/screens/WelcomSreen";
-import ViewImageScreen from "./app/screens/ViewImageScreen";
+import { View } from "react-native";
+
+import WelcomSreen from "./app/screens/WelcomSreen";
+import Card from "./app/components/Card";
+import AppText from "./app/components/AppText";
+import ListingSreen from "./app/screens/ListingSreen";
 
 function App(props) {
-  return <ViewImageScreen />;
+  return <ListingSreen />;
 }
 
 export default App;
